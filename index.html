@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/b3ca396ca1.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/A.png"  class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Web Developer</p>
+                <h1>HI,i am  <span>Anshul</span> </h1>
+            </div>
+        </div>
+
+    </div>
+   <!------------about------ -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/anshulmandir.jpg" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Proficient in multiple programming languages and skilled in analyzing
+                        resolving  complex technical issues. Seeking  a challenging role in a 
+                        dynamic  organization where i can leverage my skills and enhance my 
+                        Capabilities to contribute to the success of the team.
+                        </p>
+                    
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Technical skills</span>
+                            Html Css & Javascript <br>
+                        Machine learning <br>Python
+                    <br>SQL <br>C++ <br> Dbms <br>DSA <BR>OPPS</BR>
+                    Software Engineerig</BR>
+                </li>
+                            <li><span>UI/Ux</span><br>Designing Web/App interface</li>
+                            <li><span>Web Development</span><br>Web app Development</li>
+                            <li><span>App Development</span><br>Building andorid  </li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>Internshala</span>Trainee as a web developer</li>
+                            <li><span>Internpe</span><br>Creating a whether app </li>
+                            <li><span>Code-Clause</span><br>Creating a chat app </li>
+                            <li><span>BhartIntern</span><br>Creating a portfolio website  </li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2024</span><br>Btech[cs] from college of Engineerig Roorkee</li>
+                            <li><span>2020</span><br>Higher Secondary from Sanskar Academy I C Mawana,[up]</li>
+                            <li><span>2016</span><br>Matriculation from J.V Public School from [up] </li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- services-->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Desing</h2>
+                    <p> Features that help businesses bring idea  to life like as 
+                        Google web Designer gives you the power  to create beautiful interface 
+
+                    </p>
+                   
+
+                   
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-sharp fa-solid fa-crop"></i>
+                    <h2>UI/UX Design</h2>
+                    <p>UX design refers to the term "user experience design " <br>
+                    while UI stands for "user  interface design "  </p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <h2>App Desing</h2>
+                    <p>An App Developer is a Software engineer who's involved in the conceptualiztion design, and development of software for phones,smart watches tables and more 
+                        As an App Develper YOU will usually work with teams of data engineers and graphic designers to create these apps
+                    </p>
+                    <a href="#">Learn more</a>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- portfolio-->
+
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/work-1.png" alt="">
+                    <div class="layer">
+                        <h3>Socail Media App</h3>
+                        <p>The app connects you yo the talented people around the world.
+                            Download it from  play store.
+                        </p>
+                        <a href=""><i class="fa-sharp fa-solid fa-up-right-from-square"></i></a>
+
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-2.png" alt="">
+                    <div class="layer">
+                        <h3>Socail Media App</h3>
+                        <p>The app connects you yo the talented people around the world.
+                            Download it from  play store.
+                        </p>
+                        <a href=""><i class="fa-sharp fa-solid fa-up-right-from-square"></i></a>
+                        
+
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-3.png" alt="">
+                    <div class="layer">
+                        <h3>Online shopping App</h3>
+                        <p>The app connects you yo the talented people around the world.
+                            Download it from  play store.
+                        </p>
+                        <a href=""><i class="fa-sharp fa-solid fa-up-right-from-square"></i></a>
+                        
+
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See More</a>
+        </div>
+    </div>
+    <!--contact-->
+
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me </h1>
+                    <p><i class="fa-solid fa-envelope"></i>panshul551@gmail.com</p>
+                    <p> <i class="fa-solid fa-phone"></i>8630869360</p>
+                    <div class="social-icons">
+                        <a href="https://www.facebook.com/anshul.pal.1213"><i class="fa-brands fa-facebook"></i></a>
+                        <a href=""><i class="fa-brands fa-twitter-square"></i></a>
+                        <a href="https://www.instagram.com/anshul_up_12?utm_source=qr&r=nametag"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/anshul-pal-660273207"><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                    <a href="images/anshul resume4.pdf" download class="btn btn2">Download CV</a>
+                </div>
+
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Sumit</button>
+
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>copyright © Anshul Pal .Made Portfolio Website</p>
+        </div>
+    </div>
+
+    <script>
+
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");//display the heading 
+            document.getElementById(tabname).classList.add("active-tab");// it use for display the content 
+
+
+        }
+    </script>
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+
+        function openmenu(){
+            sidemenu.style.right = "0";
+        }
+        function closemenu(){
+            sidemenu.style.right = "-200px";
+        }
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbxwHq6C3G-f3HOWsajHaU1DA3p99PGNzGFarL2qpvBifPHGCOL8T4h40PNm32i7vtpY/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML = "Message sent successfully"
+                setTimeout(function(){
+                    msg.innerHTML = ""
+                },5000)
+                form.reset()
+            } )
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+    
+</body>
+</html>
